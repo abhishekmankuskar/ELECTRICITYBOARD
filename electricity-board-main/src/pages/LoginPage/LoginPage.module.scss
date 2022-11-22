@@ -1,0 +1,115 @@
+.loginPage{
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    opacity: 0.95;
+    background-color: rgb(0, 0, 0);
+    .loginPageForm {
+      background-color:rgb(35, 36, 36) ;
+        height: 60%;
+        width: 30%;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        right: 20%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 6px 6px #000000, 0 6px 0 #ffffff, -1px 0px 0 #ffffff,
+        0px 0px 0 #ffffff, 0px 7px 8px #000, 0 7px 20px #1b1b1b;
+        h1 {
+          color:white;
+          text-align: center;
+        }
+      
+        input {
+          padding: 1.5rem 5rem;
+          text-align: center;
+          border: 0.1px solid black;
+          border-radius: 1rem;
+          background-color: #e3fffb;
+        }
+        .loginPagePassword {
+          margin-top: 1rem;
+        }
+        .loginButton {
+          margin-top: 1rem;
+          padding: 1rem 10.2rem;
+          background-color: rgb(63, 0, 63);
+          color: white;
+          border: none;
+          border-radius: 1rem;
+        }
+      
+        .loginButton:hover {
+          background-color: rgb(94, 0, 89);
+        }
+      
+        .forgotPasswordButton {
+          margin-top: 1rem;
+          padding: 1rem 7.9rem;
+          background-color: rgb(63, 0, 63);
+          color: white;
+          border: none;
+          border-radius: 1rem;
+          
+        }
+      
+        .forgotPasswordButton:hover {
+          background-color: rgb(94, 0, 89);      
+          }
+      }
+      
+      .openForgotPasswordPage {
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        // opacity: 0.5;
+        // z-index: 0;
+      
+        .forgotPasswordForm {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+           transform: translate(-50%, -50%);
+          background-color:rgb(35, 36, 36) ;
+          height: 60vh;
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 1rem;
+          box-shadow: 0 6px 6px #000000, 0 6px 0 #ffffff, -1px 0px 0 #ffffff,
+          0px 0px 0 #ffffff, 0px 7px 8px #000, 0 7px 20px #1b1b1b;
+          input {
+            padding: 1.5rem 6rem;
+            text-align: center;
+            border: 1px solid black;
+            margin-top: 1rem;
+            border-radius: 1rem;
+      
+          }
+      
+          button {
+            margin-top: 1rem;
+            padding: 1rem 10.2rem;
+            background-color: rgb(63, 0, 63);
+            color: white;
+            border: none;
+            border-radius: 1rem;
+          }
+      
+          .closeForgotPasswordModule:hover {
+            background-color: rgb(94, 0, 89);    
+          }
+      
+          .submitNewPasswordBtn:hover{
+            background-color: rgb(94, 0, 89);    
+          }
+        }
+      }
+      
+}
